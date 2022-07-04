@@ -4,7 +4,7 @@ specifiers:
   deepmerge: ^4.2.2
   gray-matter: ^4.0.3
   gulp-remark: ^9.0.0
-  plugin-error: ^1.0.1
+  plugin-error: ^2.0.0
   rehype-highlight: ^4.1.0
   rehype-raw: ^5.1.0
   rehype-stringify: ^8.0.0
@@ -17,7 +17,7 @@ dependencies:
   deepmerge: 4.2.2
   gray-matter: 4.0.3
   gulp-remark: 9.0.0
-  plugin-error: 1.0.1
+  plugin-error: 2.0.0
   rehype-highlight: 4.1.0
   rehype-raw: 5.1.0
   rehype-stringify: 8.0.0
@@ -847,6 +847,13 @@ packages:
       arr-diff: 4.0.0
       arr-union: 3.1.0
       extend-shallow: 3.0.2
+    dev: false
+
+  /plugin-error/2.0.0:
+    resolution: {integrity: sha512-o4bwIOmuFwUg2MU6xt7plGEQY3YyENx6kvwaFZBrUpamA91FdS9w3U+pU0y4OuDoBQe+jf3RLGSfQebSRBEVsQ==}
+    engines: {node: '>=10.13.0'}
+    dependencies:
+      ansi-colors: 1.1.0
     dev: false
 
   /process-nextick-args/2.0.1:
